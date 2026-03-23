@@ -16,8 +16,12 @@ public class Exercicio8 : MonoBehaviour
 void Start()
 {if (temperatura > 30)
             print("clima quente");
+
+
         else if (temperatura >= 15)
             print("clima agradável");
+
+
         else if (temperatura < 15)
             print("clima frio");
 

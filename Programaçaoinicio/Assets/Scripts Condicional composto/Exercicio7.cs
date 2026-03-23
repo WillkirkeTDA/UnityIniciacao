@@ -17,8 +17,13 @@ public class Exercicio7 : MonoBehaviour
     void Start()
 {if (niveldojogador <= 10)
             print("iniciante");
+
+
+
         else if (niveldojogador <= 20)
             print("intermediario");
+
+
         else if (niveldojogador > 20)
             print("avançado");
               

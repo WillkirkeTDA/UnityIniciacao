@@ -13,9 +13,10 @@ public class Exercicio5 : MonoBehaviour
 
     [SerializeField] private float velocidade;
 void Start()
-{ if (velocidade > 10)
+{ 
+        if (velocidade > 10)
             print("sua velocidade é de " + velocidade + " você é muito rápido");
-        else if (velocidade > 4 && velocidade < 11)
+        else if (velocidade >= 5 && velocidade <= 10)
             print("sua velocidade é de " + velocidade + " sua velocidade é média");
         else if (velocidade < 5)
             print("sua velocidade é de " + velocidade + "você é lento");
