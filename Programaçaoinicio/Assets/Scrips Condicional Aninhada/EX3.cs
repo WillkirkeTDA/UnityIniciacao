@@ -25,8 +25,8 @@ Peça HP:
                 print("vida cheia");
 
             else print("saudavel");
-    else 
-            if (hp <= 30
+        else
+            if (hp <= 30) ;
         
     }
 
