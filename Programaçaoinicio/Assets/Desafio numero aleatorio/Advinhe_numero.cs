@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class Advinhe_numero : MonoBehaviour
 {
-    [SerializeField] private int numero;
-
+    [SerializeField] private int numero; 
     private int numeroSecreto;
     private int tentativas;
     [SerializeField] private bool facil, medio, dificil;
@@ -27,13 +26,13 @@ public class Advinhe_numero : MonoBehaviour
     }
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (Input.anyKeyDown && tentativas < 3)
         {
             tentativas++;
 
             print("Número digitado foi: " + numero);
 
-            if (numero == numeroSecreto)
+            if (numero == numeroSecreto )
             {
                 print(" Você acertou!");
                 print("Total de tentativas: " + tentativas);
